@@ -20,7 +20,7 @@ def run():  # Функция запуска
     screen = pygame.display.set_mode((0, 0), pygame.FULLSCREEN)  # Создание графической области на весь экран
     pygame.display.set_caption("Пианино")  # Приписывание названия
     bg_color = (200, 230, 255)  # Выбор цвета заднего фона
-    tone, volume = 46, 127  # Тональность и звук #45 #127
+    tone, volume = 46, 127  # Тональность и звук #46 #127
 
     for f_BGs in Images_dic:  # Загрузка задних изображений
         Images_dic[f_BGs] = BGs_cl(screen, str(f_BGs))  # Загрузка поверхностей изображений БГ с помощью словаря
